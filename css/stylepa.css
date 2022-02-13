@@ -1,0 +1,37 @@
+.container{
+    max-width:  960px;
+    margin:  0 auto;
+    font-size: 24px;
+    padding:  25px;
+     border-radius: .5rem;
+   overflow: hidden;
+   background: var(--transparent-white);
+   backdrop-filter: blur(.5rem);
+   max-width: 1200px;
+   margin:10rem auto;
+   box-shadow: var(--box-shadow);
+   /* margin-bottom: 15rem; */
+
+}
+.parallax {
+    min-height: 500px;
+    background: transparent;
+}
+body{
+   background: url(../images/night.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
